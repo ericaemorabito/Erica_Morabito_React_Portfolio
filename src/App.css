@@ -1,0 +1,26 @@
+/* Root Variables */
+:root {
+  --title-font: "Playfair Display", serif;
+  --text-font: "Raleway", sans-serif;
+  --grey: gray;
+  --blue: #0087ca;
+}
+
+/* Setting the fonts */
+
+h1,
+h2 {
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: 100px;
+}
+
+p {
+  font-family: var(--text-font);
+}
+
+/* Setting the size of my photo */
+.profile-pic {
+  height: 400px;
+  width: 300px;
+}
