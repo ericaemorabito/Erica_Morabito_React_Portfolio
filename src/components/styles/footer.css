@@ -1,0 +1,25 @@
+#footer {
+    background-color: grey;
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+#footer-copywrite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
