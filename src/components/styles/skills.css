@@ -1,0 +1,23 @@
+.skills-row {
+  height: 35rem;
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: grey;
+  padding: 3rem;
+
+  border-radius: 1.5rem;
+
+  height: 30rem;
+  width: 30rem;
+}
+
+#skills-list li {
+  color: blue;
+  font-size: 1.5rem;
+}
