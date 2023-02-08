@@ -49,12 +49,14 @@ function Home() {
             the lives of others.
           </motion.p>
 
-          <motion.button className="button-17"
+        <a href="/work">
+        <motion.button className="button-17"
           variants={buttonVariants}
           whileHover="hover">
             view my work
           </motion.button>
-
+        </a>
+          
         </div>
 
 
