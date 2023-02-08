@@ -7,15 +7,17 @@ import About from "./components/About";
 import Strengths from "./components/Strengths";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Work from "./components/Work";
 
 function App() {
   return (
       <div className="container">
         <Header />
           {/* <Home /> 
-          <About /> */}
-          {/* <Strengths /> */}
-          <Skills />
+          <About />
+          <Strengths />
+          <Skills /> */}
+          <Work />
         <Footer />
       </div>
   );

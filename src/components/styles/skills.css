@@ -2,22 +2,23 @@
   height: 35rem;
 }
 
-.skills-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
+.skills-card {
   background-color: grey;
   padding: 3rem;
-
   border-radius: 1.5rem;
-
   height: 30rem;
   width: 30rem;
 }
 
-#skills-list li {
-  color: blue;
+/* Two Even Skills List Div*/
+.bulleted-skills {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+/* Each li in the list */
+.skills-list li {
   font-size: 1.5rem;
+  margin: 1.5rem;
 }

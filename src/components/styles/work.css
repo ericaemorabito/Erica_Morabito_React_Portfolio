@@ -1,0 +1,20 @@
+.project-picture {
+  height: 20rem;
+  width: 32rem;
+}
+
+.hidden-project-card {
+  height: 20rem;
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#work-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
