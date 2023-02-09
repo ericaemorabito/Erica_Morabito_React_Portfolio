@@ -3,9 +3,10 @@
 }
 
 .skills-card {
-  background-color: grey;
+  background-color: #fff;
   padding: 3rem;
   border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
   height: 30rem;
   width: 30rem;
 }
@@ -17,8 +18,14 @@
   margin-top: 1.5rem;
 }
 
+.skill-title {
+  font-family: var(--text-font);
+  font-weight: 600;
+}
+
 /* Each li in the list */
 .skills-list li {
+  font-family: var(--text-font);
   font-size: 1.5rem;
   margin: 1.5rem;
 }

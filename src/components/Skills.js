@@ -4,11 +4,11 @@ import { Row, Col } from "react-bootstrap";
 function Skills() {
   return (
     <div>
-      <h1 className="text-center mt-5 section-title">Skills</h1>
+      <h1 className="text-center mt-5 title">Skills</h1>
       <Row className="skills-row">
         <Col className="col-sm">
           <div className="skills-card">
-            <h2 className="text-center">Front End</h2>
+            <h2 className="skill-title text-center">Front End</h2>
             <div className="bulleted-skills">
               <ul className="skills-list">
                 <li>HTML5</li>
@@ -28,7 +28,7 @@ function Skills() {
 
         <Col className="col-sm">
           <div className="skills-card">
-          <h2 className="text-center">Back End</h2>
+          <h2 className="skill-title text-center">Back End</h2>
             <div className="bulleted-skills">
               <ul className="skills-list">
                 <li>Node.js</li>
