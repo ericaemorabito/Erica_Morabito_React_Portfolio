@@ -3,16 +3,23 @@
   width: 32rem;
 }
 
-.hidden-project-card {
+.project-card {
   height: 20rem;
   width: 32rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  /* visibility: hidden; */
 }
 
-#work-row {
+.project-title {
+  font-size: 2rem;
+}
+
+.work-row {
+  height: 25%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

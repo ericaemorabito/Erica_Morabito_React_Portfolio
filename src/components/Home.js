@@ -1,6 +1,6 @@
 import image from "../images/profilepic.jpeg";
 import "./styles/home.css";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
 import Strengths from "./Strengths";
 
 const fadeInVariants = {
@@ -27,7 +27,7 @@ const imageVariants = {
 
 function Home() {
   return (
-    <div id="home">
+    <div id="home" key={'home'}>
       <div className="row w-100 h-100">
         <div className="col-sm">
           <motion.h1
