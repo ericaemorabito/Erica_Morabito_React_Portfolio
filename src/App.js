@@ -5,8 +5,6 @@ import Header from "./components/Header";
 //import Stickybar from './components/Stickybar';
 import Home from "./components/Home";
 import About from "./components/About";
-import Strengths from "./components/Strengths";
-import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
@@ -16,9 +14,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App container">
         <Header />
-        <div className="container">
           <Routes>
             <Route 
               path='/' 
@@ -37,10 +34,7 @@ function App() {
               element={<Contact />}>
             </Route>
           </Routes>
-          {/* <Strengths />
-          <Skills /> */}
           <Footer />
-        </div>
       </div>
     </Router>
   );

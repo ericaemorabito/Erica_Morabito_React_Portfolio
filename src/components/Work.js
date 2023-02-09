@@ -6,8 +6,8 @@ function Work(){
 
   return (
     <div id="about">
-      <h2 className="section-title text-center mt-5">My Work</h2>
-      <p className="subtitle text-center">check out my recent projects</p>
+      <h2 className="title text-center mt-5">My Work</h2>
+      <p className="subtitle text-center">Check out my recent projects</p>
       
       <div id="work-row" className="row mt-5">
         <motion.div className="col-sm m-3"

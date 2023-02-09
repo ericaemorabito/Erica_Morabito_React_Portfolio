@@ -1,12 +1,14 @@
+#home {
+  height: 100vh;
+  width: 100vw;
+}
+
 #name {
+  font-family: var(--title-font);
   font-size: 90px;
 }
 
 #job-title {
   font-size: 25px;
+  font-family: var(--text-font);
 }
-
-/* #home-pic {
-  outline: 1px solid black;
-  outline-offset: 10px;
-} */

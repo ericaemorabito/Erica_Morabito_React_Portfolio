@@ -1,34 +1,27 @@
 /* Root Variables */
 :root {
-  --title-font: "Playfair Display", serif;
-  --text-font: "Raleway", sans-serif;
+  --title-font: 'Lato', sans-serif;
+  --text-font: 'Anonymous Pro', monospace;
   --grey: gray;
   --blue: #0087ca;
 }
 
 /* Setting Text */
 
-h1,
-h2 {
+.title {
   font-family: var(--title-font);
-  font-weight: 400;
-  font-size: 2.5rem;
-}
-
-p {
-  font-family: var(--text-font);
-}
-
-.section-title {
-  font-size: 70px;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .subtitle {
-  font-size: 25px;
+  font-size: 1.3rem;
 }
 
-.text {
-  font-size: 20px;
+.text,
+ p {
+  font-family: var(--text-font);
+  font-size: 1.3rem;
 }
 
 /* Setting Profile Picture */
