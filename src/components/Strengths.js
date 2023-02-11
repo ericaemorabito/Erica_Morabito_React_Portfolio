@@ -1,8 +1,46 @@
 import "./styles/strengths.css";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 function Strengths() {
+  const { ref, inView } = useInView({
+    threshold: 0.5
+  });
+  
+  const animation = useAnimation();
+
+  useEffect(() => {
+    // When the element is in view
+    if (inView) {
+      animation.start({
+        x: 0,
+        opacity: 1,
+        transition: {
+          duration: 1,
+          bounce: 0.3,
+          type: "spring",
+        },
+      });
+    }
+    // When the element is not in view. Inital state
+    if (!inView) {
+      animation.start({
+        x: -500,
+        opacity: 0,
+        transition: {
+          delay: 0.2,
+          duration: 1,
+          bounce: 0.3,
+          type: "spring",
+        },
+      });
+    }
+    console.log("use effect hook in view", inView);
+  }, [inView]);
+
   return (
-    <div id="strengths">
+    <motion.div id="strengths" ref={ref} animate={animation}>
       <h1 className="text-center mt-5">Strengths</h1>
       <p className="subtitle text-center">What I bring to the team</p>
 
@@ -48,7 +86,7 @@ function Strengths() {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
