@@ -2,7 +2,7 @@ import "./styles/strengths.css";
 
 function Strengths() {
   return (
-    <div id="strengths-page">
+    <div id="strengths">
       <h1 className="text-center mt-5">Strengths</h1>
       <p className="subtitle text-center">What I bring to the team</p>
 
@@ -19,8 +19,7 @@ function Strengths() {
         </div>
       </div>
 
-      {/* Communication & Teamwork Row */}
-
+      {/* Creativity Row */}
       <div className="row mt-5 h-25 w-100">
         {/* Strength's Label Box */}
         <div className="col-3">
@@ -36,7 +35,6 @@ function Strengths() {
       </div>
 
       {/* Communication & Teamwork Row */}
-
       <div className="row mt-5 mb-5 h-25 w-100">
         {/* Strength's Label Box */}
         <div className="col-3">

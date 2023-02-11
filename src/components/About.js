@@ -3,6 +3,7 @@ import image from "../images/profilepic.jpeg";
 import Skills from "./Skills";
 import { motion } from "framer-motion";
 import Resume from "../resume/EricaMorabitoResume.pdf";
+import Strengths from "../components/Strengths"
 
 const titleVariants = {
   hidden: {
@@ -88,7 +89,11 @@ function About() {
               variants={titleVariants}
               initial="hidden"
               animate="visible"
-              transition={{ delay: 1.7, duration: 1 }}
+              whileHover={{ scale: 1.1 }}
+              transition={{ 
+               delay: 1.7, duration: 1,
+               scale: { delay: 0 }
+              }}
             >
               Download Resume
             </motion.button>
@@ -97,6 +102,7 @@ function About() {
       </div>
 
       <Skills />
+      <Strengths />
     </div>
   );
 }
