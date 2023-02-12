@@ -30,6 +30,7 @@ function About() {
   return (
     <div id="about">
       <div className="row w-100">
+        
         {/* Left Side */}
         <div className="col-sm">
           <motion.img

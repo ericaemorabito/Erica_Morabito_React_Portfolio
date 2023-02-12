@@ -1,0 +1,49 @@
+/* Left Side Contact Items */
+
+.contact-contents {
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  border-radius: 24px;
+}
+
+.contact-contents,
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Right Side Email Form */
+
+form {
+  height: 75%;
+  width: 80%;
+}
+
+label {
+  font-family: var(--text-font);
+}
+
+#email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  margin: 1rem;
+}
+
+#email, 
+#name {
+  height: 2.5rem;
+}
+
+#message {
+  height: 10rem;
+}
+
+#email-btn {
+
+}

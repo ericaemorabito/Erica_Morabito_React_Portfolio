@@ -1,8 +1,9 @@
 #footer {
-    background-color: grey;
+    background-color: #fff;
     height: 5rem;
     width: 100vw;
     display: flex;
+    border-top: 1px solid var(--grey);
 }
 
 #footer-links li {
@@ -16,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    font-size: 1rem;
 }
 
 #footer-links {

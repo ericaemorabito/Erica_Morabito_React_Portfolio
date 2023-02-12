@@ -1,92 +1,75 @@
 import "./styles/strengths.css";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+// import { useInView } from "react-intersection-observer";
+// import { useEffect } from "react";
+
+const titleVariants = {
+  hidden: {
+    opacity: 0,
+    x: 500,
+  },
+  visible: {
+    opacity: 1,
+    x: 0
+  }, 
+  exit: {
+    opacity: 0
+  }
+};
 
 function Strengths() {
-  const { ref, inView } = useInView({
-    threshold: 0.5
-  });
-  
-  const animation = useAnimation();
-
-  useEffect(() => {
-    // When the element is in view
-    if (inView) {
-      animation.start({
-        x: 0,
-        opacity: 1,
-        transition: {
-          duration: 1,
-          bounce: 0.3,
-          type: "spring",
-        },
-      });
-    }
-    // When the element is not in view. Inital state
-    if (!inView) {
-      animation.start({
-        x: -500,
-        opacity: 0,
-        transition: {
-          delay: 0.2,
-          duration: 1,
-          bounce: 0.3,
-          type: "spring",
-        },
-      });
-    }
-    console.log("use effect hook in view", inView);
-  }, [inView]);
-
   return (
-    <motion.div id="strengths" ref={ref} animate={animation}>
-      <h1 className="text-center mt-5">Strengths</h1>
-      <p className="subtitle text-center">What I bring to the team</p>
+    <div id="strengths">
+      <motion.h1 className="title text-center mt-5"
+      variants={titleVariants}
+      initial="hidden"
+      whileInView="visible"
+      transition= {{ delay: 0.4, duration: 1 }}
+      >Strengths
+      </motion.h1>
+      <motion.p className="subtitle text-center"
+      variants={titleVariants}
+      initial="hidden"
+      whileInView="visible"
+      transition= {{ delay: 0.6, duration: 1 }}>
+        What I bring to the team
+      </motion.p>
 
       {/* Problem Solving Row */}
-      <div className="row h-25 w-100">
+      <div className="row h-25 w-100 strengths-row">
+        {/* Problem Solving */}
         <div className="col-3">
-          <div className="strengths-box">Problem Solving</div>
+          <motion.div className="strengths-box"
+           variants={titleVariants}
+           initial="hidden"
+           whileInView="visible"
+           transition= {{ delay: 0.7, duration: 1 }}>
+            Problem Solving
+            </motion.div>
         </div>
-        <div className="col-8 d-flex align-items-center">
-          <ul>
-            <li className="strengths-list">things things things</li>
-            <li className="strengths-list">things things things</li>
-          </ul>
+        {/* Creativity */}
+        <div className="col-3">
+          <motion.div className="strengths-box"
+          variants={titleVariants}
+          initial="hidden"
+          whileInView="visible"
+          transition= {{ delay: 0.8, duration: 1 }}>
+            Creativity & Blah Blah
+          </motion.div>
+        </div>
+        {/* Communication & Teamwork */}
+        <div className="col-3">
+          <motion.div className="strengths-box"
+          variants={titleVariants}
+          initial="hidden"
+          whileInView="visible"
+          transition= {{ delay: 0.9, duration: 1 }}>
+            Communication & Teamwork
+            </motion.div>
         </div>
       </div>
 
-      {/* Creativity Row */}
-      <div className="row mt-5 h-25 w-100">
-        {/* Strength's Label Box */}
-        <div className="col-3">
-          <div className="strengths-box">Creativity & Blah Blah</div>
-        </div>
-        {/* Strength's related skills */}
-        <div className="col-8 d-flex align-items-center">
-          <ul>
-            <li className="strengths-list">things things things</li>
-            <li className="strengths-list">things things things</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Communication & Teamwork Row */}
-      <div className="row mt-5 mb-5 h-25 w-100">
-        {/* Strength's Label Box */}
-        <div className="col-3">
-          <div className="strengths-box">Communication & Teamwork</div>
-        </div>
-        {/* Strength's related skills */}
-        <div className="col-8 d-flex align-items-center">
-          <ul>
-            <li className="strengths-list">things things things</li>
-            <li className="strengths-list">things things things</li>
-          </ul>
-        </div>
-      </div>
-    </motion.div>
+    </div>
   );
 }
 

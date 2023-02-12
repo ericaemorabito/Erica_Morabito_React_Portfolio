@@ -1,37 +1,44 @@
 import "./styles/contact.css";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 
 function Contact() {
   return (
-    <section id="contact">
-      <div className="row w-100">
-        {/* Left Side */}
-        <div className="col-sm">
-          <p>Left side stuff TBD</p>
+    <section className="contact section" id="contact">
+
+      <div className="row contact-row">
+
+
+        {/* Left Information */}
+        <div className="col-6 contact-contents">
+          <h1 className="mt-5 fs-1">Get in touch</h1>
+            <p>Email</p>
+            <p>LinkedIn</p>
+            <p>Github</p>
+          </div>
+        
+
+        {/* Right Form */}
+        <div className="col-6 contact-form" id="email-form">
+          {/* <div className="col-10"> */}
+          <h2 className="mt-5 fs-1">Send an Email</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="James"/>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="jbond@007.com"/>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <input type="message" class="form-control" id="message" placeholder="Message"/>
+            </div>
+            <button type="submit" class="button-17" id="email-btn">Send</button>
+          </form>
+          {/* </div> */}
         </div>
 
-        {/* Right Side */}
-        <div className="col-sm">
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
-            </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
-          </Form>
         </div>
-      </div>
     </section>
   );
 }
