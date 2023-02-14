@@ -10,18 +10,22 @@
     list-style: none;
     display: inline;
     margin: 20px;
+    font-family: var(--text-font);
 }
 
-#footer-copywrite {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    font-size: 1rem;
+#footer-links li:hover {
+    color: var(--blue);
+}
+
+#footer-links li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-family: var(--text-font);
 }
 
 #footer-links {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }

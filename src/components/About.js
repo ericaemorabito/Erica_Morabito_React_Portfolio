@@ -62,7 +62,7 @@ function About() {
             animate="visible"
             transition={{ delay: 0.9, duration: 1 }}
           >
-            My introduction
+            Skills 
           </motion.p>
           <motion.p
             className="text"
@@ -71,13 +71,11 @@ function About() {
             animate="visible"
             transition={{ delay: 1.3, duration: 1 }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserun mollit anim id est laborum.
+            Experience transforming designs into front-end code, 
+            working with back-end code to integrate UI components with API and databases,
+            building high-quality, scalable web applications with best practices,
+            and
+            developing modern, responsive, and cross-browser-compatible websites.
           </motion.p>
           <a
             href={Resume}
@@ -103,7 +101,7 @@ function About() {
       </div>
 
       <Skills />
-      <Strengths />
+      {/* <Strengths /> */}
     </div>
   );
 }

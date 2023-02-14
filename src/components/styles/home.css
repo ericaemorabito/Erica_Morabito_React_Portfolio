@@ -3,7 +3,7 @@
   width: 100vw;
 }
 
-#name {
+#home-name {
   font-family: var(--title-font);
   font-size: 90px;
 }

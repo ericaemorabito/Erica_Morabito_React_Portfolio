@@ -11,6 +11,12 @@ import Contact from "./components/Contact";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+// Importing the icons
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faMessage, faPaperPlane} from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faMessage, faEnvelope, faPaperPlane)
+
 function App() {
   return (
     <Router>

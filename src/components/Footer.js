@@ -1,15 +1,15 @@
 import "./styles/footer.css";
+import Resume from '../resume/EricaMorabitoResume.pdf'
 
 function Footer() {
   return (
     <div id="footer" className="row">
-      <p id="footer-copywrite" className="col">Copywrite © 2023 All Rights Reserved</p>
-      <ul id="footer-links" className="col">
-        <li>Github</li>
-        <li>LinkedIN</li>
-        <li>Resume</li>
-        <li>Email</li>
-      </ul>
+      <div id="footer-links" className="col">
+        <a href="https://github.com/ericaemorabito" target="_blank" className="text-dark"><li>Github</li></a>
+        <a href="https://www.linkedin.com/in/erica-morabito/" target="_blank" className="text-dark"><li>LinkedIn</li></a>
+        <a href={Resume}  target="_blank" className="text-dark"><li>Resume</li></a>
+        <a href="mailto:ericaemorabito@gmail.com" target="_blank" className="text-dark"><li>Email</li></a>
+      </div>
     </div>
   );
 }

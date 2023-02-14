@@ -15,7 +15,7 @@ const svgVariants = {
     transition: { delay: 0.5, duration: 1 }
   },
   hover: {
-    scale: 1.1
+    scale: 1.2
   }
 }
 
@@ -26,8 +26,8 @@ function Header() {
       <Navbar.Brand href="/">
         <motion.svg
           variants={svgVariants}
-          initial="hidden"
-          animate="visible"
+          // initial="hidden"
+          // animate="visible"
           whileHover="hover"
           id="logo"
           width="69"

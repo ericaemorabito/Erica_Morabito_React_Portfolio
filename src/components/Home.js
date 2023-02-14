@@ -31,8 +31,8 @@ function Home() {
       <div className="row w-100 h-100">
         <div className="col-sm">
           <motion.h1
-            id="name"
-            className="title mb-3"
+            id="home-name"
+            className="mb-3"
             variants={fadeInVariants}
             initial="hidden"
             animate="visible"
@@ -56,8 +56,8 @@ function Home() {
             transition={{ delay: 1.3, duration: 1 }}
             className="text-center"
           >
-            I'm a team player who wants to solve problems and improve the lives
-            of others. Sentence needs to be added here.
+            I'm a front-end engineer specializing in building remakarable online experiences.
+            Let's build projects to solve problems and improve the lives of others.  
           </motion.p>
           <a href="/work">
             <motion.button

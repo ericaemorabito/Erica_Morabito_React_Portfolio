@@ -105,7 +105,7 @@ function Skills() {
                 <li>MongoDB</li>
                 <li>Mongoose</li>
                 <li>GraphQL</li>
-                <li>Rest API</li>
+                {/* <li></li> */}
               </ul>
             </div>
           </div>

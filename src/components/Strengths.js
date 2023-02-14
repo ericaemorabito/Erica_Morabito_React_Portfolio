@@ -25,7 +25,7 @@ function Strengths() {
       initial="hidden"
       whileInView="visible"
       transition= {{ delay: 0.4, duration: 1 }}
-      >Strengths
+      >Experience
       </motion.h1>
       <motion.p className="subtitle text-center"
       variants={titleVariants}
@@ -44,7 +44,7 @@ function Strengths() {
            initial="hidden"
            whileInView="visible"
            transition= {{ delay: 0.7, duration: 1 }}>
-            Problem Solving
+            Problem Solving & Critical Thinking
             </motion.div>
         </div>
         {/* Creativity */}
@@ -54,7 +54,7 @@ function Strengths() {
           initial="hidden"
           whileInView="visible"
           transition= {{ delay: 0.8, duration: 1 }}>
-            Creativity & Blah Blah
+            Communication & Teamwork
           </motion.div>
         </div>
         {/* Communication & Teamwork */}
@@ -64,7 +64,7 @@ function Strengths() {
           initial="hidden"
           whileInView="visible"
           transition= {{ delay: 0.9, duration: 1 }}>
-            Communication & Teamwork
+            Creativity & Adaptability 
             </motion.div>
         </div>
       </div>
