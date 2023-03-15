@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 // Importing the icons
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -25,19 +25,19 @@ function App() {
         
           <Routes>
             <Route 
-              path='/' 
+              path='/Erica_Morabito_React_Portfolio/' 
               element={<Home /> }>
             </Route>
             <Route 
-              path='/about' 
+              path='/Erica_Morabito_React_Portfolio/about' 
               element={<About />}>
             </Route>
             <Route 
-              path='/work' 
+              path='/Erica_Morabito_React_Portfolio/work' 
               element={<Work />}>
             </Route>
             <Route 
-              path='/contact' 
+              path='/Erica_Morabito_React_Portfolio/contact' 
               element={<Contact />}>
             </Route>
           </Routes>

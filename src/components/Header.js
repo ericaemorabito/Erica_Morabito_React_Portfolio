@@ -23,7 +23,7 @@ const svgVariants = {
 function Header() {
   return (
     <Navbar expand="lg">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/Erica_Morabito_React_Portfolio/">
         <motion.svg
           variants={svgVariants}
           // initial="hidden"
@@ -49,13 +49,13 @@ function Header() {
       >
         {/* Supposed to change alighnment */}
         <Nav className="nav-bar">
-          <Nav.Link as="a" href="/about" className="nav-item">
+          <Nav.Link as="a" href="/Erica_Morabito_React_Portfolio/about" className="nav-item">
             About
           </Nav.Link>
-          <Nav.Link as="a" href="/work" className="nav-item">
+          <Nav.Link as="a" href='/Erica_Morabito_React_Portfolio/work'  className="nav-item">
             Work
           </Nav.Link>
-          <Nav.Link as="a" href="/contact" className="nav-item">
+          <Nav.Link as="a" href='/Erica_Morabito_React_Portfolio/contact' className="nav-item">
             Contact
           </Nav.Link>
           <Nav.Link as="a" 
