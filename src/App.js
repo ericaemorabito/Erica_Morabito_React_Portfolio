@@ -25,19 +25,19 @@ function App() {
         
           <Routes>
             <Route 
-              path='/Erica_Morabito_React_Portfolio/' 
+              path='/' 
               element={<Home /> }>
             </Route>
             <Route 
-              path='/Erica_Morabito_React_Portfolio/about' 
+              path='/about' 
               element={<About />}>
             </Route>
             <Route 
-              path='/Erica_Morabito_React_Portfolio/work' 
+              path='/work' 
               element={<Work />}>
             </Route>
             <Route 
-              path='/Erica_Morabito_React_Portfolio/contact' 
+              path='/contact' 
               element={<Contact />}>
             </Route>
           </Routes>
