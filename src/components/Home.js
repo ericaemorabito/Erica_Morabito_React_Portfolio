@@ -56,8 +56,8 @@ function Home() {
             transition={{ delay: 1.3, duration: 1 }}
             className="text-center"
           >
-            I'm a front-end engineer specializing in building remakarable online experiences.
-            Let's build projects to solve problems and improve the lives of others.  
+            I'm a front-end engineer building remakarable online experiences.
+            I love to build projects and solve problems to improve the lives of others.  
           </motion.p>
           <a href="/work">
             <motion.button
