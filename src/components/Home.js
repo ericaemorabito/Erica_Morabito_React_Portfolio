@@ -59,7 +59,7 @@ function Home() {
             I'm a front-end engineer building remakarable online experiences.
             I love to build projects and solve problems to improve the lives of others.  
           </motion.p>
-          <a href="/work">
+          <a href="/Erica_Morabito_React_Portfolio/#/work">
             <motion.button
             transition={{ delay: 1.7, duration: 1 }}
               className="button-17 mt-3"

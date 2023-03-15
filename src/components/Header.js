@@ -1,29 +1,28 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./styles/header.css";
-import { motion } from 'framer-motion';
-import Resume from '../resume/EricaMorabitoResume.pdf'
+import { motion } from "framer-motion";
+import Resume from "../resume/EricaMorabitoResume.pdf";
 
 const svgVariants = {
-  hidden: { 
+  hidden: {
     opacity: 0,
     x: -100,
   },
   visible: {
     opacity: 1,
     x: 0,
-    transition: { delay: 0.5, duration: 1 }
+    transition: { delay: 0.5, duration: 1 },
   },
   hover: {
-    scale: 1.2
-  }
-}
-
+    scale: 1.2,
+  },
+};
 
 function Header() {
   return (
     <Navbar expand="lg">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/Erica_Morabito_React_Portfolio/#">
         <motion.svg
           variants={svgVariants}
           // initial="hidden"
@@ -49,20 +48,35 @@ function Header() {
       >
         {/* Supposed to change alighnment */}
         <Nav className="nav-bar">
-          <Nav.Link as="a" href="/about" className="nav-item">
+          <Nav.Link
+            as="a"
+            href="/Erica_Morabito_React_Portfolio/#/about
+"
+            className="nav-item"
+          >
             About
           </Nav.Link>
-          <Nav.Link as="a" href="/work" className="nav-item">
+          <Nav.Link
+            as="a"
+            href="/Erica_Morabito_React_Portfolio/#/work"
+            className="nav-item"
+          >
             Work
           </Nav.Link>
-          <Nav.Link as="a" href="/contact" className="nav-item">
+          <Nav.Link
+            as="a"
+            href="/Erica_Morabito_React_Portfolio/#/contact"
+            className="nav-item"
+          >
             Contact
           </Nav.Link>
-          <Nav.Link as="a" 
-          href={Resume}  
-          rel="noreferrer" 
-          target="_blank"
-          className="nav-item">
+          <Nav.Link
+            as="a"
+            href={Resume}
+            rel="noreferrer"
+            target="_blank"
+            className="nav-item"
+          >
             Resume
           </Nav.Link>
         </Nav>
