@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Erica_Morabito_React_Portfolio/static/css/main.d695a1af.css",
-    "main.js": "/Erica_Morabito_React_Portfolio/static/js/main.3c3fa76a.js",
+    "main.js": "/Erica_Morabito_React_Portfolio/static/js/main.a48a5b79.js",
     "static/js/787.8d4efb73.chunk.js": "/Erica_Morabito_React_Portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/tastemakers.png": "/Erica_Morabito_React_Portfolio/static/media/tastemakers.057b9505b278170d343b.png",
     "static/media/soloTravel.png": "/Erica_Morabito_React_Portfolio/static/media/soloTravel.a02f013c120c861366db.png",
@@ -11,11 +11,11 @@
     "static/media/EricaMorabitoResume.pdf": "/Erica_Morabito_React_Portfolio/static/media/EricaMorabitoResume.cc4f91531f740bed6d25.pdf",
     "index.html": "/Erica_Morabito_React_Portfolio/index.html",
     "main.d695a1af.css.map": "/Erica_Morabito_React_Portfolio/static/css/main.d695a1af.css.map",
-    "main.3c3fa76a.js.map": "/Erica_Morabito_React_Portfolio/static/js/main.3c3fa76a.js.map",
+    "main.a48a5b79.js.map": "/Erica_Morabito_React_Portfolio/static/js/main.a48a5b79.js.map",
     "787.8d4efb73.chunk.js.map": "/Erica_Morabito_React_Portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d695a1af.css",
-    "static/js/main.3c3fa76a.js"
+    "static/js/main.a48a5b79.js"
   ]
 }
