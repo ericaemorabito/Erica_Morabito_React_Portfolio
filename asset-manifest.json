@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/E-commerce/static/css/main.d695a1af.css",
+    "main.js": "/E-commerce/static/js/main.0f965ff6.js",
+    "static/js/787.8d4efb73.chunk.js": "/E-commerce/static/js/787.8d4efb73.chunk.js",
+    "static/media/tastemakers.png": "/E-commerce/static/media/tastemakers.057b9505b278170d343b.png",
+    "static/media/soloTravel.png": "/E-commerce/static/media/soloTravel.a02f013c120c861366db.png",
+    "static/media/bites.png": "/E-commerce/static/media/bites.67245375fe70b37d69ef.png",
+    "static/media/ecommerce.png": "/E-commerce/static/media/ecommerce.547ce9a3b85c5cab8c67.png",
+    "static/media/profilepic.jpeg": "/E-commerce/static/media/profilepic.cefd93dd9ae0ab2a85fc.jpeg",
+    "static/media/EricaMorabitoResume.pdf": "/E-commerce/static/media/EricaMorabitoResume.cc4f91531f740bed6d25.pdf",
+    "index.html": "/E-commerce/index.html",
+    "main.d695a1af.css.map": "/E-commerce/static/css/main.d695a1af.css.map",
+    "main.0f965ff6.js.map": "/E-commerce/static/js/main.0f965ff6.js.map",
+    "787.8d4efb73.chunk.js.map": "/E-commerce/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d695a1af.css",
+    "static/js/main.0f965ff6.js"
+  ]
+}
