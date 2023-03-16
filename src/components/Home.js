@@ -56,7 +56,7 @@ function Home() {
             transition={{ delay: 1.3, duration: 1 }}
             className="text-center"
           >
-            I'm a front-end engineer building remakarable online experiences.
+            I'm a full-stack web developer working to build remakarable online experiences.
             I love to build projects and solve problems to improve the lives of others.  
           </motion.p>
           <a href="/Erica_Morabito_React_Portfolio/#/work">

@@ -223,7 +223,7 @@ function Work() {
             >
               Github
             </a>
-            <a className="project-link" href="https://ericaemorabito.github.io/taste_makers/" target="_blank">
+            <a className="project-link" href="https://ericaemorabito.github.io/Taste_Makers/" target="_blank">
               Deployed
             </a>
           </motion.div>
@@ -240,7 +240,7 @@ function Work() {
               transition: { duration: 0.3, type: "spring" },
             }}
           >
-            <a href="https://ericaemorabito.github.io/taste_makers/" target="_blank">
+            <a href="https://ericaemorabito.github.io/Taste_Makers/" target="_blank">
             <img
               className="project-picture"
               src={tasteMakers}
