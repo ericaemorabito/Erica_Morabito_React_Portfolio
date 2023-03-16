@@ -47,7 +47,7 @@ function Home() {
             animate="visible"
             transition={{ delay: 0.9, duration: 1 }}
           >
-            Front-End Web Developer
+            Full-Stack Web Developer
           </motion.p>
           <motion.p
             variants={fadeInVariants}
