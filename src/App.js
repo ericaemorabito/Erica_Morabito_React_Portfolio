@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from 'react-bootstrap';
 
 import Header from "./components/Header";
 //import Stickybar from './components/Stickybar';
@@ -20,9 +21,8 @@ library.add(fab, faMessage, faEnvelope, faPaperPlane)
 function App() {
   return (
     <Router>
-      <div className="App container-fluid m-2">
+      <Container fluid className="App">
         <Header />
-        
           <Routes>
             <Route 
               path='/' 
@@ -41,9 +41,8 @@ function App() {
               element={<Contact />}>
             </Route>
           </Routes>
-          
           <Footer />
-      </div>
+      </Container>
     </Router>
   );
 }

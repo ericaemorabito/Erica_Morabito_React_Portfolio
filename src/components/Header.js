@@ -46,12 +46,10 @@ function Header() {
         id="basic-navbar-nav"
         className="d-flex justify-content-end"
       >
-        {/* Supposed to change alighnment */}
         <Nav className="nav-bar">
           <Nav.Link
             as="a"
-            href="/Erica_Morabito_React_Portfolio/#/about
-"
+            href="/Erica_Morabito_React_Portfolio/#/about"
             className="nav-item"
           >
             About

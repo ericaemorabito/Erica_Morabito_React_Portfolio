@@ -18,7 +18,7 @@ const projectVariants = {
   },
 };
 
-const Project = (project) => {
+const Project = (project, key) => {
   return (
     <>
     <motion.div
