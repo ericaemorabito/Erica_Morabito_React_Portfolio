@@ -29,7 +29,7 @@ const imageVariants = {
 
 function About() {
   return (
-    <Container id="about">
+    <Container fluid id="about">
       <Row>
         {/* Left Side */}
         <Col xs={12} sm={12} md={6} lg={true} className="centered-column my-3">
