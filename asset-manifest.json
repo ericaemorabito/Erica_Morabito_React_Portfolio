@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/Erica_Morabito_React_Portfolio/static/css/main.dd12cf68.css",
-    "main.js": "/Erica_Morabito_React_Portfolio/static/js/main.74f9257e.js",
+    "main.js": "/Erica_Morabito_React_Portfolio/static/js/main.4d940a65.js",
     "static/js/787.8d4efb73.chunk.js": "/Erica_Morabito_React_Portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/vmjs.png": "/Erica_Morabito_React_Portfolio/static/media/vmjs.12ce6686b0611dbc3750.png",
     "static/media/tastemakers.png": "/Erica_Morabito_React_Portfolio/static/media/tastemakers.f5fdae46c61b8249e275.png",
+    "static/media/colletta.png": "/Erica_Morabito_React_Portfolio/static/media/colletta.c858a41b458377440c66.png",
     "static/media/soloTravel.png": "/Erica_Morabito_React_Portfolio/static/media/soloTravel.a02f013c120c861366db.png",
     "static/media/weather.png": "/Erica_Morabito_React_Portfolio/static/media/weather.8bcb6060511d6087e2ff.png",
     "static/media/code.jpeg": "/Erica_Morabito_React_Portfolio/static/media/code.549e1e4c5e9ce65526af.jpeg",
@@ -11,14 +13,14 @@
     "static/media/ecommerce.png": "/Erica_Morabito_React_Portfolio/static/media/ecommerce.547ce9a3b85c5cab8c67.png",
     "static/media/profilepic.jpeg": "/Erica_Morabito_React_Portfolio/static/media/profilepic.cefd93dd9ae0ab2a85fc.jpeg",
     "static/media/codeQuiz.png": "/Erica_Morabito_React_Portfolio/static/media/codeQuiz.1972bbec223344f1fd29.png",
-    "static/media/EricaMorabitoResume.pdf": "/Erica_Morabito_React_Portfolio/static/media/EricaMorabitoResume.4f5a586755255bc9f4d1.pdf",
+    "static/media/EricaMorabitoResume.pdf": "/Erica_Morabito_React_Portfolio/static/media/EricaMorabitoResume.90446111ec63bf69a8c1.pdf",
     "index.html": "/Erica_Morabito_React_Portfolio/index.html",
     "main.dd12cf68.css.map": "/Erica_Morabito_React_Portfolio/static/css/main.dd12cf68.css.map",
-    "main.74f9257e.js.map": "/Erica_Morabito_React_Portfolio/static/js/main.74f9257e.js.map",
+    "main.4d940a65.js.map": "/Erica_Morabito_React_Portfolio/static/js/main.4d940a65.js.map",
     "787.8d4efb73.chunk.js.map": "/Erica_Morabito_React_Portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd12cf68.css",
-    "static/js/main.74f9257e.js"
+    "static/js/main.4d940a65.js"
   ]
 }
