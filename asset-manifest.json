@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Erica_Morabito_React_Portfolio/static/css/main.dd12cf68.css",
-    "main.js": "/Erica_Morabito_React_Portfolio/static/js/main.4d940a65.js",
+    "main.css": "/Erica_Morabito_React_Portfolio/static/css/main.857e2329.css",
+    "main.js": "/Erica_Morabito_React_Portfolio/static/js/main.dbf8bd1d.js",
     "static/js/787.8d4efb73.chunk.js": "/Erica_Morabito_React_Portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/Colletta2.gif": "/Erica_Morabito_React_Portfolio/static/media/Colletta2.f873ceec900ab53275f4.gif",
+    "static/media/vmjs2.gif": "/Erica_Morabito_React_Portfolio/static/media/vmjs2.7a96ac09e30c53f949fd.gif",
     "static/media/vmjs.png": "/Erica_Morabito_React_Portfolio/static/media/vmjs.12ce6686b0611dbc3750.png",
     "static/media/tastemakers.png": "/Erica_Morabito_React_Portfolio/static/media/tastemakers.f5fdae46c61b8249e275.png",
     "static/media/colletta.png": "/Erica_Morabito_React_Portfolio/static/media/colletta.c858a41b458377440c66.png",
     "static/media/soloTravel.png": "/Erica_Morabito_React_Portfolio/static/media/soloTravel.a02f013c120c861366db.png",
     "static/media/weather.png": "/Erica_Morabito_React_Portfolio/static/media/weather.8bcb6060511d6087e2ff.png",
     "static/media/code.jpeg": "/Erica_Morabito_React_Portfolio/static/media/code.549e1e4c5e9ce65526af.jpeg",
-    "static/media/bites.png": "/Erica_Morabito_React_Portfolio/static/media/bites.67245375fe70b37d69ef.png",
-    "static/media/ecommerce.png": "/Erica_Morabito_React_Portfolio/static/media/ecommerce.547ce9a3b85c5cab8c67.png",
     "static/media/profilepic.jpeg": "/Erica_Morabito_React_Portfolio/static/media/profilepic.cefd93dd9ae0ab2a85fc.jpeg",
     "static/media/codeQuiz.png": "/Erica_Morabito_React_Portfolio/static/media/codeQuiz.1972bbec223344f1fd29.png",
     "static/media/EricaMorabitoResume.pdf": "/Erica_Morabito_React_Portfolio/static/media/EricaMorabitoResume.90446111ec63bf69a8c1.pdf",
     "index.html": "/Erica_Morabito_React_Portfolio/index.html",
-    "main.dd12cf68.css.map": "/Erica_Morabito_React_Portfolio/static/css/main.dd12cf68.css.map",
-    "main.4d940a65.js.map": "/Erica_Morabito_React_Portfolio/static/js/main.4d940a65.js.map",
+    "main.857e2329.css.map": "/Erica_Morabito_React_Portfolio/static/css/main.857e2329.css.map",
+    "main.dbf8bd1d.js.map": "/Erica_Morabito_React_Portfolio/static/js/main.dbf8bd1d.js.map",
     "787.8d4efb73.chunk.js.map": "/Erica_Morabito_React_Portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd12cf68.css",
-    "static/js/main.4d940a65.js"
+    "static/css/main.857e2329.css",
+    "static/js/main.dbf8bd1d.js"
   ]
 }
